@@ -1,0 +1,37 @@
+/* @import url('https://fonts.googleapis.com/css?family=Taviraj|Work+Sans'); */
+
+/*
+ * font-family: 'Work Sans', sans-serif;
+ * font-family: 'Taviraj', serif;
+ */
+
+ html {
+   height: 100%;
+ }
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Taviraj', serif;
+  flex: 1;
+  height: 100%;
+  min-height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#touch {
+  background: green;
+  flex: 1;
+  height: 100vh;
+}
